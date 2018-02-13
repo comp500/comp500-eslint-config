@@ -94,6 +94,11 @@ module.exports = {
 		"no-confusing-arrow": "error",
 		"no-duplicate-imports": "error",
 		"no-useless-computed-key": "error",
-		
+		"no-useless-constructor": "error",
+		"no-useless-rename": "error",
+		"no-var": "error",
+		"prefer-rest-params": "warn",
+		"prefer-spread": "warn",
+		"rest-spread-spacing": "error"
 	}
 };
