@@ -39,6 +39,28 @@ module.exports = {
 		"no-shadow-restricted-names": "error",
 		"no-undef-init": "warn",
 		// Node.js and CommonJS
-		"callback-return": "warn"
+		"callback-return": "warn",
+		"global-require": "warn",
+		// Stylistic Issues
+		"array-bracket-spacing": "warn",
+		"block-spacing": "warn",
+		"brace-style": "error",
+		"camelcase": "error",
+		"capitalized-comments": ["error", "never"],
+		"comma-dangle": "error",
+		"comma-spacing": "warn",
+		"comma-style": "error",
+		"computed-property-spacing": "error",
+		"func-call-spacing": "error",
+		"func-name-matching": "error",
+		"function-paren-newline": ["error", "never"],
+		"implicit-arrow-linebreak": "error",
+		"indent": ["error", "tab"],
+		"key-spacing": "error",
+		"keyword-spacing": "error",
+		"lines-between-class-members": "error",
+		"new-parens": "error",
+		"no-array-constructor": "error",
+		
 	}
 };
