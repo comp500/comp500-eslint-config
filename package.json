@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/comp500/comp500-eslint-config/issues"
   },
-  "homepage": "https://github.com/comp500/comp500-eslint-config#readme"
+  "homepage": "https://github.com/comp500/comp500-eslint-config#readme",
+  "peerDependencies": {
+    "eslint": ">= 4"
+  }
 }
