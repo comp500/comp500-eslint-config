@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/comp500/comp500-eslint-config#readme",
   "peerDependencies": {
-    "eslint": ">= 4"
+    "eslint": ">= 4.12"
   }
 }
