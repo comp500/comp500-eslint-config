@@ -67,7 +67,7 @@ module.exports = {
 		"no-negated-condition": "warn",
 		"no-nested-ternary": "error",
 		"no-new-object": "warn",
-		"no-restricted-syntax": ["warn", "BinaryExpression[operator='in']"], // Use forEach instead
+		"no-restricted-syntax": ["warn", "ForInStatement", "ForOfStatement"], // Use forEach etc. instead
 		"no-trailing-spaces": "warn",
 		"no-unneeded-ternary": "error",
 		"no-whitespace-before-property": "error",
