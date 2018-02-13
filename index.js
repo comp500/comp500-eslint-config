@@ -1,5 +1,5 @@
 module.exports = {
-	"extends": "eslint:reccomended",
+	"extends": "eslint:recommended",
 	"rules": {
 		// Possible Errors
 		"no-console": "warn",
@@ -33,7 +33,7 @@ module.exports = {
 		"no-useless-return": "warn",
 		"no-void": "error",
 		"no-with": "warn",
-		"yoda": ["error", {"exceptRange": true}],
+		"yoda": ["error", "never", {"exceptRange": true}],
 		// Variables
 		"no-shadow": "warn",
 		"no-shadow-restricted-names": "error",
@@ -54,7 +54,7 @@ module.exports = {
 		"func-call-spacing": "error",
 		"func-name-matching": "error",
 		"function-paren-newline": ["error", "never"],
-		"implicit-arrow-linebreak": "error",
+		"implicit-arrow-linebreak": ["error", "beside"],
 		"indent": ["error", "tab"],
 		"key-spacing": "error",
 		"keyword-spacing": "error",
@@ -68,7 +68,7 @@ module.exports = {
 		"no-negated-condition": "warn",
 		"no-nested-ternary": "error",
 		"no-new-object": "warn",
-		"no-restricted-syntax": ["BinaryExpression[operator='in']"], // Use forEach instead
+		"no-restricted-syntax": ["warn", "BinaryExpression[operator='in']"], // Use forEach instead
 		"no-trailing-spaces": "warn",
 		"no-unneeded-ternary": "error",
 		"no-whitespace-before-property": "error",
@@ -79,7 +79,7 @@ module.exports = {
 		"semi": "error",
 		"semi-spacing": "error",
 		"semi-style": "error",
-		"space-before-function-paren": "error",
+		"space-before-function-paren": ["error", "never"],
 		"space-in-parens": "error",
 		"space-infix-ops": "error",
 		"space-unary-ops": "error",
