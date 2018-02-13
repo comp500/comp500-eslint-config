@@ -46,7 +46,6 @@ module.exports = {
 		"block-spacing": "warn",
 		"brace-style": "error",
 		"camelcase": "error",
-		"capitalized-comments": ["error", "never"],
 		"comma-dangle": "error",
 		"comma-spacing": "warn",
 		"comma-style": "error",
